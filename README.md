@@ -4,7 +4,7 @@
 
 #### Requirements
 1) OpenJDK 17
-2) maven-3.6.3
+2) maven-3.6.x or higher 
 
 #### Steps to compile and execute
 
