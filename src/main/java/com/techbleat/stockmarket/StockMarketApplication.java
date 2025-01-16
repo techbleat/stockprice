@@ -39,12 +39,6 @@ class StockController {
             String price = customMap.get (ticker);
             if (price == null ) 
                 throw new Exception("Data Not Found");
-                
-            price = "5.0";
-
-            
-
-            //return new StockResponse(name, "Success", price);
             return new StockResponse(ticker, "Success", Double.valueOf(price));
         } catch (Exception e) {
             return new StockResponse(ticker, "Error fetching stock data", 0.0);
